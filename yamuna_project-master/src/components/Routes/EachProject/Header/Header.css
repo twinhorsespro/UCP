@@ -1,0 +1,121 @@
+.header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522246819/projects/cayan-101/8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .header .project-code {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: table;
+    padding: 0 20px;
+    border: 4px solid #fff; }
+    .header .project-code h2 {
+      font-family: "Monstrat"; }
+  .header .project-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    padding: 10px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: #fff; }
+    .header .project-details .project-details-wrapper {
+      width: 50%;
+      text-align: center;
+      display: flex;
+      justify-content: space-between; }
+      .header .project-details .project-details-wrapper .project-details-each {
+        padding: 0;
+        margin: 0;
+        margin: 0 10px; }
+        .header .project-details .project-details-wrapper .project-details-each .image {
+          width: 90px;
+          height: 90px;
+          margin: auto;
+          padding: 0 !important;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1522135622/each-project-icons.png"); }
+          .header .project-details .project-details-wrapper .project-details-each .image.location-icons {
+            background-position: -630px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.installments-icons {
+            background-position: -506px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.delivery-icons {
+            background-position: -382px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.type-icons {
+            background-position: -258px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.area-icons {
+            background-position: -134px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.status-icons {
+            background-position: -10px -10px; }
+        .header .project-details .project-details-wrapper .project-details-each .text {
+          width: 100%; }
+          .header .project-details .project-details-wrapper .project-details-each .text p {
+            margin: 1px;
+            font-weight: 100;
+            font-size: 1.2em;
+            color: #fff; }
+            .header .project-details .project-details-wrapper .project-details-each .text p:nth-child(1) {
+              font-size: 0.9em; }
+
+@media (max-width: 992px) {
+  .header .project-code {
+    border: 2px solid #fff; }
+    .header .project-code h3 {
+      font-size: 1.5em !important; }
+  .header .project-details {
+    width: 101%;
+    display: block; }
+    .header .project-details .project-details-wrapper {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px; }
+      .header .project-details .project-details-wrapper .project-details-each {
+        width: 30%;
+        margin: auto !important;
+        padding: 0;
+        text-align: center; }
+        .header .project-details .project-details-wrapper .project-details-each .image {
+          width: 60px;
+          height: 60px;
+          margin: auto;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          background-image: url("http://res.cloudinary.com/cayangroup9292/image/upload/c_scale,w_500/v1522135622/each-project-icons.png"); }
+          .header .project-details .project-details-wrapper .project-details-each .image.location-icons {
+            background-position: -424px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.installments-icons {
+            background-position: -340px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.delivery-icons {
+            background-position: -258px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.type-icons {
+            background-position: -175px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.area-icons {
+            background-position: -90px -10px; }
+          .header .project-details .project-details-wrapper .project-details-each .image.status-icons {
+            background-position: -8px -10px; }
+        .header .project-details .project-details-wrapper .project-details-each .text {
+          width: 100%; }
+          .header .project-details .project-details-wrapper .project-details-each .text p {
+            width: 100%;
+            font-size: 1em;
+            letter-spacing: 0; } }
+
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,52 @@
+.location {
+  background-color: #222222;
+  margin-top: 30px; }
+  .location .tabs {
+    background-color: #222222; }
+    .location .tabs ul {
+      padding: 0 50px;
+      width: 100%; }
+      .location .tabs ul li {
+        position: relative;
+        width: 20%;
+        display: flex;
+        justify-content: space-between; }
+        .location .tabs ul li div {
+          position: relative;
+          z-index: 30;
+          float: left;
+          background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1522065530/location-btns.png"); }
+          .location .tabs ul li div.taksim {
+            width: 42px;
+            height: 44px;
+            background-position: -71px -10px; }
+          .location .tabs ul li div.airport {
+            width: 41px;
+            height: 46px;
+            background-position: -10px -10px; }
+        .location .tabs ul li p {
+          margin: auto;
+          color: #fff; }
+  .location .map {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+    background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1522054899/home-page-whyus/photo-tour-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; }
+    .location .map img {
+      margin: auto; }
+
+@media (max-width: 992px) {
+  .location .tabs {
+    width: 100%; }
+    .location .tabs ul {
+      padding: 0 !important;
+      height: auto !important;
+      width: 100% !important; }
+      .location .tabs ul li div {
+        display: none; } }
+
+/*# sourceMappingURL=Location.css.map */

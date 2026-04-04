@@ -1,0 +1,113 @@
+@import url(~slick-carousel/slick/slick.css);
+@import url(~slick-carousel/slick/slick-theme.css);
+.projetcsCarousel {
+  height: 700px;
+  background-color: #fff; }
+  .projetcsCarousel .slick-slider {
+    background-color: #fff;
+    height: 520px; }
+    .projetcsCarousel .slick-slider .slick-arrow {
+      background-color: #222222; }
+    .projetcsCarousel .slick-slider .slick-list {
+      background-color: #fff;
+      height: 520px;
+      width: auto;
+      padding-bottom: 10px; }
+      .projetcsCarousel .slick-slider .slick-list .slick-track {
+        height: 520px; }
+      .projetcsCarousel .slick-slider .slick-list .wrapper {
+        width: 350px !important;
+        height: 500px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        margin: 0px 40px 10px 40px !important;
+        padding: 0 !important;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+        position: relative !important; }
+        .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages {
+          position: relative;
+          width: 100%;
+          height: 250px;
+          background-position: center;
+          background-size: cover; }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages h6 {
+            background-color: rgba(0, 0, 0, 0.3);
+            margin: 0;
+            position: absolute;
+            bottom: 7px;
+            color: #fff;
+            font-size: 1.5em;
+            font-family: "Oswald", sans-serif; }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages.cayan-124 {
+            background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314639/projects/cayan-124/carousel-cayan-124.jpg"); }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages.cayan-107 {
+            background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314821/projects/cayan-107/carousel-cayan-107.jpg"); }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages.cayan-11 {
+            background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522322995/carousel/cayan-11.jpg"); }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages.cayan-15 {
+            background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323549/carousel/caya-15.jpg"); }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages.cayan-101 {
+            background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323765/carousel/cayan-101.jpg"); }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .carouselImages.cayan-100 {
+            background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323968/carousel/cayan-100.jpg"); }
+        .projetcsCarousel .slick-slider .slick-list .wrapper .description {
+          position: relative;
+          padding: 10px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px #fff;
+          height: 100px; }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .description h6 {
+            font-size: 1em;
+            color: #222222;
+            display: inline; }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .description h5 {
+            font-size: 1.3em;
+            color: #CDA036;
+            font-family: "Oswald", sans-serif;
+            display: inline;
+            position: absolute;
+            right: 10px;
+            margin: 0; }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .description p {
+            font-size: 0.8em;
+            line-height: 1.2em;
+            margin-top: 10px; }
+        .projetcsCarousel .slick-slider .slick-list .wrapper .project-info {
+          width: 100%;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          height: 80px; }
+          .projetcsCarousel .slick-slider .slick-list .wrapper .project-info .project-info-icons {
+            width: 50%;
+            height: 100%;
+            padding-left: 5px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2); }
+            .projetcsCarousel .slick-slider .slick-list .wrapper .project-info .project-info-icons.right {
+              border-right: none;
+              padding-left: 5px; }
+            .projetcsCarousel .slick-slider .slick-list .wrapper .project-info .project-info-icons i {
+              display: inline;
+              color: #222222; }
+            .projetcsCarousel .slick-slider .slick-list .wrapper .project-info .project-info-icons p {
+              display: inline;
+              font-size: 0.7em;
+              margin-left: 5px;
+              font-weight: 500; }
+        .projetcsCarousel .slick-slider .slick-list .wrapper .more-details {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 0;
+          background-color: #222222;
+          color: #fff;
+          font-size: 0.8em;
+          font-weight: 300;
+          font-family: "Oswald", sans-serif;
+          padding: 10px;
+          border: none;
+          width: 120px;
+          border-radius: 30px;
+          margin-top: 10px; }
+
+/*# sourceMappingURL=ProjectsCarousel.css.map */

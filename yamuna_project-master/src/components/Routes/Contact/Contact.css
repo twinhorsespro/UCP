@@ -1,0 +1,23 @@
+.contact-us{
+  background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522235492/contact-page/bird-bg-big.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.2);
+}
+.contact-section {
+  /* background-color: rgba(0,0,0,0.2) */
+}
+/* .contact-section h1 {
+  color: #fff;
+} */
+.body-h1::before {
+
+  /* content: "CONTACT US" !important; */
+}
+@media (max-width:992px){
+  .contact-us{
+    background-position-x: -210px;
+  }
+}

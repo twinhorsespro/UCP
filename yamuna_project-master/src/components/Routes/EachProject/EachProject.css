@@ -1,0 +1,53 @@
+.row {
+  margin-bottom: 0; }
+
+.text {
+  display: table;
+  color: #fff;
+  margin: auto; }
+  .text h2 {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    font-weight: 400; }
+  .text hr {
+    border: 2px solid #CDA036;
+    width: 30%;
+    margin: auto; }
+
+.tabs {
+  margin: 40px 0 0 0 !important;
+  height: 80px;
+  width: 100% !important;
+  background-color: #222222; }
+  .tabs ul {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; }
+    .tabs ul li {
+      width: 25%;
+      display: inline;
+      padding: 15px;
+      color: #fff;
+      background-color: #222222;
+      font-size: 1.3em;
+      cursor: pointer; }
+      .tabs ul li.active {
+        border-bottom: 4px solid #CDA036 !important; }
+      .tabs ul li:hover {
+        background-color: #CDA036; }
+
+@media (max-width: 992px) {
+  html {
+    overflow-x: hidden; }
+
+  body {
+    overflow-x: hidden; }
+    body .text {
+      text-align: center; }
+      body .text h2 {
+        letter-spacing: 0.09em;
+        font-size: 1.3em;
+        font-weight: 200; } }
+
+/*# sourceMappingURL=EachProject.css.map */

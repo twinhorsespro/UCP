@@ -1,0 +1,96 @@
+.about-outter
+  position: relative
+  //margin-top: 200px
+  z-index: 30 !important
+  .about
+    text-align: center
+    position: relative
+    z-index: 30 !important
+    //top: -10%
+    width: 80vw
+    margin: auto
+    margin-bottom: 100px
+    @media (max-width:600px)
+      margin-top: -40%
+    @media (min-width:601px) and (max-width:992px)
+      margin-top: -20%
+    h1
+      font-family: 'Oswald', sans-serif
+      font-size: 4em
+      padding-bottom: 10px
+      margin: auto
+
+
+      &::before
+        content: "ABOUTUS"
+        left: 40%
+
+
+
+      &::after
+        display: none
+
+    hr
+      width: 250px
+      background-color: #CDA036
+      margin: auto
+      height: 4px
+      border: none
+    p
+      margin-top: 40px
+
+
+
+  .our-team
+    text-align: center
+    .our-team-div
+      .our-team-each
+        text-align: center
+        img
+          height: 270px
+          width: auto
+          transform: translateY(6px)
+        .name
+          background-color: #CDA036
+          padding: 10px 0
+          color: #fff
+          text-align: center
+          h5
+            font-family: 'Oswald', sans-serif
+            color: #fff
+            font-size: 2em
+            letter-spacing: 0.3em
+            display: table
+            margin: auto
+
+            //font-weight: 600
+
+        h5
+          color: #CDA036
+          font-family: 'Oswald', sans-serif
+        .position
+          display: table
+          text-align: left
+          margin: auto
+          p
+            i
+              margin-right: 5px
+              transform: translateY(5px)
+              color: #CDA036
+
+
+@media (max-width:992px)
+  .about-outter
+    margin-top: 0px !important
+    .about
+      h1
+        font-size: 3em
+        &::after
+          display: none !important
+        &::before
+          font-size: 1em !important
+      p
+        text-align: left
+@media (min-width:1200px) and (max-width: 1440px)
+  .about-outter
+    margin-top: 70px !important

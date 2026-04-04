@@ -1,0 +1,54 @@
+.plans {
+  background-color: #222222;
+  padding-bottom: 60px; }
+  .plans .tabs-info {
+    padding: 100px 50px;
+    background-color: #fff;
+    margin-bottom: 0;
+    width: 100% !important;
+    margin: 0 !important; }
+    .plans .tabs-info .image {
+      width: 50%;
+      height: 400px;
+      background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1522061052/home-page-whyus/plan.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .plans .tabs-info .text {
+      width: 40%;
+      margin-top: 10px; }
+      .plans .tabs-info .text .price, .plans .tabs-info .text .area {
+        margin-top: 10px;
+        color: #fff;
+        background-color: #222222;
+        display: table;
+        width: 70%;
+        text-align: center; }
+        .plans .tabs-info .text .price h3, .plans .tabs-info .text .area h3 {
+          font-size: 1.5em;
+          font-weight: 500; }
+      .plans .tabs-info .text button {
+        width: 70%;
+        background-color: #CDA036;
+        color: #fff;
+        margin-top: 20px;
+        padding: 30px; }
+
+@media (max-width: 992px) {
+  .plans .tabs-info .image {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+  .plans .tabs-info .text {
+    width: 100% !important; }
+    .plans .tabs-info .text .price, .plans .tabs-info .text .area {
+      width: 80%;
+      margin: 10px auto; }
+    .plans .tabs-info .text button {
+      width: 80%;
+      margin-top: 10px;
+      font-size: 1.5em; } }
+
+/*# sourceMappingURL=Plans.css.map */

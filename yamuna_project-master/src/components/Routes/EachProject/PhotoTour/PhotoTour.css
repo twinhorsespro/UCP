@@ -1,0 +1,81 @@
+.photo-tour {
+  background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1522054899/home-page-whyus/photo-tour-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  .photo-tour .image {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    position: relative; }
+    .photo-tour .image img {
+      border-bottom: 5px solid #fff; }
+    .photo-tour .image .left-btn, .photo-tour .image .right-btn {
+      margin: auto;
+      width: 100px;
+      height: 40px;
+      position: relative;
+      background: #fff;
+      text-align: center;
+      display: flex; }
+      .photo-tour .image .left-btn p, .photo-tour .image .right-btn p {
+        margin: auto;
+        font-weight: 400; }
+      .photo-tour .image .left-btn.right-btn::before, .photo-tour .image .right-btn.right-btn::before {
+        content: "";
+        color: #fff;
+        position: absolute;
+        right: -20px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 20px solid #fff;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent; }
+      .photo-tour .image .left-btn.left-btn::before, .photo-tour .image .right-btn.left-btn::before {
+        content: "";
+        color: #fff;
+        position: absolute;
+        left: -20px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-right: 20px solid #fff;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent; }
+
+@media (max-width: 992px) {
+  .photo-tour .row {
+    margin-bottom: 0; }
+    .photo-tour .row .image {
+      width: 100%;
+      display: block; }
+      .photo-tour .row .image img {
+        width: 100% !important;
+        margin: auto; }
+      .photo-tour .row .image .left-btn, .photo-tour .row .image .right-btn {
+        position: absolute;
+        z-index: 30;
+        width: 50px;
+        height: 30px;
+        margin: 20px 20px 10px 20px;
+        bottom: 0 !important; }
+        .photo-tour .row .image .left-btn.right-btn, .photo-tour .row .image .right-btn.right-btn {
+          right: 30%; }
+          .photo-tour .row .image .left-btn.right-btn::before, .photo-tour .row .image .right-btn.right-btn::before {
+            right: -14px;
+            border-left: 15px solid #fff;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent; }
+        .photo-tour .row .image .left-btn.left-btn, .photo-tour .row .image .right-btn.left-btn {
+          left: 30%; }
+          .photo-tour .row .image .left-btn.left-btn::before, .photo-tour .row .image .right-btn.left-btn::before {
+            left: -14px;
+            border-right: 15px solid #fff;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent; } }
+
+/*# sourceMappingURL=PhotoTour.css.map */

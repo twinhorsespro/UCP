@@ -1,0 +1,54 @@
+
+.cayan
+  position: fixed
+  left: -30%
+  margin: 0
+  top: -5%
+  bottom: 0
+  padding: 0
+  z-index: -30
+  font-size: 13em
+  color: rgba(0,0,0,0.09)
+  transform: rotate(90deg)
+  display: none
+  @media (max-width: 1200px)
+    display: none
+.projects-hero-carousel-mobile
+  display: none
+.projects-hero-carousel
+  margin: 0
+  padding: 0
+  height: 100vh
+  width: 100%
+  position: relative
+  background:
+    image: url('https://res.cloudinary.com/cayangroup9292/image/upload/v1521981520/Projects-page/_projects-hero-lg.jpg')
+    position: center
+    size: cover
+    attachment: fixed
+    repeat: no-repeat
+  .container
+    position: absolute
+    bottom: 0
+    width: 100%
+    margin: auto
+    left: 50%
+    transform: translateX(-50%)
+    height: 210px
+    text-align: center
+    h1
+      padding: 0
+      margin: 50px 0 0 0
+      color: #fff
+      font-size: 12em
+@media (max-width: 992px)
+  .projects-hero-carousel
+    width: 100%
+    // background-image: url('../assets/images/projects/_projects-hero-sm.jpg')
+    .container
+      // position: relative
+      // top: 5%
+      height: 100px
+      h1
+        // display: none
+        font-size: 4.5em

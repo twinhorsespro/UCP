@@ -1,0 +1,74 @@
+
+.why-choose-us
+  //margin-top: 40px
+
+  position: relative
+  padding: 0 0 40px 0
+  background:
+    image: url('https://res.cloudinary.com/cayangroup9292/image/upload/v1521879354/home-page-whyus/_hp-background-pattern.png')
+    repeat: no-repeat
+    position: center
+    size: cover
+  &::before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: #222222
+  h1
+    color: #CDA036
+    margin-top: 0 !important
+    &::before
+      content: "WHY CHOOSE US" !important
+      position: absolute
+      color: #CDA036
+      opacity: 0.07
+      font-size: 1.2em
+    &::after
+      top: 75%
+
+
+  .why-choose-us-info
+    margin-top: 40px
+    color: #fff
+    .why-choose-us-info-each
+      margin-top: 30px
+      .bg
+        width: 64px
+        height: 64px
+        background: url('https://res.cloudinary.com/cayangroup9292/image/upload/v1521992692/home-page-whyus/why-us.png')
+        &.bg-pro
+          width: 60px
+          height: 49px
+          background-size: 400px auto
+          background-position: -735px -0px
+          background-repeat: none
+        &.bg-trust
+          width: 61px
+          height: 62px
+          background-position: -248px -10px
+        &.bg-satisfy
+          width: 56px
+          height: 63px
+          background-position:  -10px -10px
+        &.bg-service
+          width: 64px
+          height: 64px
+          background-position: -329px -10px
+        &.bg-best_pricing
+          width: 61px
+          height: 61px
+          background-position:  -86px -10px
+        &.bg-fast_com
+          width: 61px
+          height: 61px
+
+          background-position: -167px -10px
+
+      p
+        color: #5D5D5D
+        line-height: 1.1em
+@media (max-width: 992px)
+  h1
+    font-size: 2em !important

@@ -1,0 +1,250 @@
+
+
+
+
+$black-bg: #222222
+$lightgrey : #5D5D5D
+$lightgrey-background: #F0F0F0
+$main-cayan-gold: #CDA036
+$light-black: #1D1D1D
+$dark-brown:  #0D0800
+$button-blue: #28A9E5
+$shadow: 5px 5px 100px 0 rgba(0,0,0,0.2)
+// #sidenav-overlay
+//   display: none
+//   opacity: 0
+.bm-burger-button
+  display: none
+.bm-menu
+  display: none
+.dropdown-content
+  text-shadow: center
+  li
+    margin: auto
+    text-shadow: center
+    padding-left: 20px
+.navbar-fixed
+  z-index: 100
+
+  .normal-nav
+    background-color: #fff
+    .brand-logo
+      margin-left: 20px
+      img
+        width: 200px
+    .side-nav
+
+      //display: none !important
+      padding: 40px 0
+      height: 100vh
+      //margin-left: -50%
+      z-index: 10
+      position: relative
+      z-index: 200
+      background-color: $black-bg
+      text-align: center
+      img
+        width: 50%
+        height: auto
+        margin-bottom: 30px
+      li
+        margin-top: 20px
+        width: 100%
+        &.active
+          background-color: $main-cayan-gold
+          a
+            font-weight: 400
+            letter-spacing: 0.5em
+            font-size: 1.1em
+        a
+          color: #fff
+          font-size: 1em
+          letter-spacing: 0.2em
+          font-weight: 200
+    .nav-links
+      margin: auto
+      height: 100%
+      width: 50%
+      text-align: center
+      display: flex
+      justify-content: space-between
+      li
+        margin: 2px
+        .nav-links-child,a
+          color: #222222
+          letter-spacing: 0.2em
+          font-size: 0.9em
+          font-weight: 300
+          max-height: 50px
+          transition: all .3s
+          background-color: #fff
+          &:hover
+            transform: translateY(-5px)
+            background-color: #fff
+        &::after
+          content: ""
+          display: block
+          width: 0
+          height: 2px
+          background: $main-cayan-gold
+          transition: all .3s
+        &:hover::after
+          width: 100%
+        &.active
+          background-color: #fff
+          &::after
+            content: ""
+            display: block
+            width: 100%
+            height: 2px
+            background: $main-cayan-gold
+            transition: all .3s
+
+          a
+            font-weight: 600 !important
+            font-size: 0.9em
+            border-bottom: 2px solid #fff
+            &:hover
+              transform: none
+    .language
+      width: 25%
+      position: absolute
+      top: 0
+      right: 0
+      li
+        color: $black-bg
+        display: inline
+        cursor: pointer
+        padding: 0 10px
+        i
+          display: inline
+          margin: 0
+          font-size: 0.9em
+        a
+          color: $black-bg
+          font-weight: 300
+          display: inline
+          padding: 0
+          font-size: 0.9em
+
+
+@media  (max-width: 992px)
+  .bm-burger-button
+    position: fixed
+    width: 25px
+    height: 18px
+    right: 20px
+    top: 20px
+    display: block
+
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars
+    background: #222222
+    height: 3px !important
+
+
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button
+    height: 24px
+    width: 24px
+
+
+  /* Color/shape of close button cross */
+  .bm-cross
+    background: $main-cayan-gold
+
+
+
+  /* General sidebar styles */
+  .bm-menu
+    background: #222222
+    padding: 2.5em 1.5em 0
+    font-size: 1em
+    width: 100%
+    display: block
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape
+    fill: #222222
+
+
+  /* Wrapper for item list */
+  .bm-item-list
+    color: #222222
+    background-color: #222222
+    padding: 0.8em
+    width: 100% !important
+    text-align: center
+    font-size: 2em
+    a
+      font-family: 'Montserrat', sans-serif !important
+      font-weight: 100
+      letter-spacing: 0.1em
+      font-size: 0.9em
+
+    .sidenav-logo
+      width: 60%
+      height: auto
+      margin: auto
+      margin-bottom: 40px
+
+
+
+  /* Styling of overlay */
+  .bm-overlay
+    background: rgba(0, 0, 0, 0.3)
+
+  .normal-nav
+    // .nav-links
+    //   height: 105vh !important
+    //   background-color: #222222
+    //   position: absolute
+    //   text-align: center
+    //   width: 70% !important
+    //   left: -2px
+    //   top: -2px
+    //   .nav-links-inner
+    //     //background-color: pink
+    //     width: 80%
+    //     position: relative
+    //     left: 50%
+    //     margin-top: 50px
+    //     transform: translateX(-50%)
+    //     //height: 50%
+    //     display: flex
+    //     flex-direction: column
+    //     img
+    //       margin-bottom: 100px
+    //       width: 200px
+    //       position: relative
+    //       left: 50%
+    //       transform: translateX(-50%)
+    //
+    //     li
+    //       background: none
+    //       .nav-links-child
+    //         background-color: #222222 !important
+    //         color: #fff
+    //         font-size: 1.1em
+
+
+
+      // transform: translateX(-200px)
+
+
+
+    .brand-logo
+      margin: 0 !important
+    .button-collapse
+      i
+        color: $black-bg
+
+
+@media  (min-width: 992px) and (max-width: 1200px)
+  .navbar-fixed
+    .normal-nav
+
+      .nav-links
+        width: 50%
