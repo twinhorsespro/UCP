@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^8.18.0",
     "amazon-product-api": "^0.4.4",
     "axios": "^0.18.1",
     "google-map-react": "^0.34.0",
