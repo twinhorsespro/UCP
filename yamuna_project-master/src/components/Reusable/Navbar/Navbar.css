@@ -20,23 +20,13 @@
         height: 64px;
        }
        .navbar-fixed .normal-nav .brand-logo .top-text {
-         font-size: 20px;
+         font-size: 18px;
          display: inline-block;
          color: black;
-         position: absolute;
-         width: 124px;
-         margin-top: -10px;
-         margin-left: 15px;
+         white-space: nowrap;
+         margin-left: 10px;
+         line-height: 64px;
        }
-       .navbar-fixed .normal-nav .brand-logo .bottom-text {
-        font-size: 14px;
-        display: inline-block;
-        color: black;
-        position: absolute;
-        width: 124px;
-        margin-top: 15px;
-        margin-left: 5px;
-      }
     .navbar-fixed .normal-nav .side-nav {
       padding: 40px 0;
       height: 100vh;
