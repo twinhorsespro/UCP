@@ -15,7 +15,7 @@ class Whyus extends Component {
                     <div className="col s3 bg bg-pro"></div>
                     <div className="col s9 why-choose-us-text">
                       <h6>History</h6>
-                      <p>We are Abheeshta although nascent we have been evolving as one of the fastest real estate marketing company, besides enabling our Clients to get the best deals available in the real estate industry.</p>
+                      <p>We are Urban Crown Projects, evolving as one of the fastest growing real estate companies, enabling our clients to get the best deals available in the industry.</p>
                     </div>
                   </div>
                   <div className="why-choose-us-info-each col s4">

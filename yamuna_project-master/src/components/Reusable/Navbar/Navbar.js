@@ -25,8 +25,8 @@ class Navbar extends Component {
             <div className="nav-wrapper">
               <a href="index.html" className="brand-logo">
                 <img className="responsive-img" src={Image} />
-                <span className="top-text">Abheeshta</span>
-                <span className="bottom-text">Life Space Pvt Ltd</span>
+                <span className="top-text">Urban Crown</span>
+                <span className="bottom-text">Projects</span>
               </a>
 
               <ul className="nav-links center hide-on-med-and-down">
