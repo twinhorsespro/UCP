@@ -21,11 +21,12 @@
        }
        .navbar-fixed .normal-nav .brand-logo .top-text {
          font-size: 18px;
-         display: inline-block;
          color: black;
          white-space: nowrap;
+         position: absolute;
          margin-left: 10px;
-         line-height: 64px;
+         top: 50%;
+         transform: translateY(-50%);
        }
     .navbar-fixed .normal-nav .side-nav {
       padding: 40px 0;

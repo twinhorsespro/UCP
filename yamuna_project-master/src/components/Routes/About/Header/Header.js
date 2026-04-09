@@ -9,8 +9,9 @@ class Header extends Component {
       <div className="row">
         <section className="about-hero-carousel col s12">
 
-          <br/>
-          <img className="responsive-img" srcSet="https://res.cloudinary.com/cayangroup9292/image/upload/v1521978953/about/_about-cayan-hero-lg.png"  alt=""/>
+          <div className="about-hero-overlay">
+            <span className="about-hero-text">URBAN CROWN PROJECTS</span>
+          </div>
         </section>
           </div>
         <div className="hero-shape">
