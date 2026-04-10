@@ -17,6 +17,7 @@ class Navbar extends Component {
           <img className="sidenav-logo" src={Image} />
           <a id="home" className="menu-item" href="/">HOME</a>
           <a id="projects" className="menu-item" href="/projects">PROJECTS</a>
+          <a id="news" className="menu-item" href="/news">IN THE NEWS</a>
           <a id="about" className="menu-item" href="/about">ABOUT</a>
           <a id="contact" className="menu-item" href="/contact">CONTACT</a>
         </Menu>
@@ -31,6 +32,7 @@ class Navbar extends Component {
               <ul className="nav-links center hide-on-med-and-down">
                 <li><a href="/">HOME</a></li>
                 <li><a href="/projects">PROJECTS</a></li>
+                <li><a href="/news">IN THE NEWS</a></li>
                 <li><a href="/about">ABOUT</a></li>
                 <li><a href="/contact">CONTACT</a></li>
               </ul>
