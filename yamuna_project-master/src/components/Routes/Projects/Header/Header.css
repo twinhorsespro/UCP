@@ -45,7 +45,10 @@
 
 @media (max-width: 992px) {
   .projects-hero-carousel {
-    width: 100%; }
+    width: 100%;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover; }
     .projects-hero-carousel .container {
       height: 100px; }
       .projects-hero-carousel .container h1 {
