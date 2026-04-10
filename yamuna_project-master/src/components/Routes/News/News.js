@@ -27,9 +27,7 @@ class News extends Component {
             <h1>IN THE NEWS</h1>
           </div>
           <div className="container">
-            <div className="news-intro">
-              <p>Urban Crown Projects featured in leading publications across Hyderabad.</p>
-            </div>
+
             <div className="news-grid">
               {newsItems.map((item) => (
                 <div key={item.id} className="news-card">

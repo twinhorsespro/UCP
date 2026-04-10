@@ -93,9 +93,13 @@
 @media (max-width: 992px) {
   .about-hero-carousel {
     height: 100vh;
-    background-position-y: -7vh; }
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover; }
     .about-hero-carousel::after {
-      background-position-y: -7vh; }
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover; }
 
   .hero-shape::after, .hero-shape::before {
     border: 3px solid #fff; } }
