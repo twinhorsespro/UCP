@@ -15,8 +15,8 @@ class Navbar extends Component {
         <i onClick={this.showSettings} className="material-icons sidenav-trigger right">menu</i>
         <Menu >
           <img className="sidenav-logo" src={Image} />
-          <a id="home" className="menu-item" href="/">BUY</a>
-          <a id="projects" className="menu-item" href="/projects">SELL</a>
+          <a id="home" className="menu-item" href="/">HOME</a>
+          <a id="projects" className="menu-item" href="/projects">PROJECTS</a>
           <a id="about" className="menu-item" href="/about">ABOUT</a>
           <a id="contact" className="menu-item" href="/contact">CONTACT</a>
         </Menu>
@@ -29,8 +29,8 @@ class Navbar extends Component {
               </a>
 
               <ul className="nav-links center hide-on-med-and-down">
-                <li><a href="/">BUY</a></li>
-                <li><a href="/projects">SELL</a></li>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/projects">PROJECTS</a></li>
                 <li><a href="/about">ABOUT</a></li>
                 <li><a href="/contact">CONTACT</a></li>
               </ul>

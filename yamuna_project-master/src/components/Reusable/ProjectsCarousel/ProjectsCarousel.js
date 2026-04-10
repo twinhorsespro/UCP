@@ -20,6 +20,9 @@ class ProjectsCarousel extends Component {
         products: result.data
       })
     })
+    .catch(error => {
+      console.log('Could not load projects:', error);
+    })
   }
 
   render() {
