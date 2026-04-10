@@ -1,0 +1,109 @@
+.towers-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.towers-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tower-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.tower-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.tower-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.tower-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.tower-card:hover .tower-image {
+  transform: scale(1.05);
+}
+
+.tower-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tower-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  background: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.tower-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.tower-details {
+  padding: 20px;
+}
+
+.tower-desc {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.tower-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tower-specs span {
+  color: #CDA036;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tower-specs i {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .tower-image {
+    height: 250px;
+  }
+  .tower-name {
+    font-size: 20px;
+  }
+}

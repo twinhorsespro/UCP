@@ -13,23 +13,31 @@ class Sections extends Component {
             <h1 className="body-h1">ABOUT US</h1>
             <hr/>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, ligula ac blandit volutpat,
-              sapien magna efficitur odio, eu porttitor nisi ex suscipit eros. Ut pretium egestas pharetra. Sed nulla arcu,
-              imperdiet tempor vehicula varius, blandit a nunc. Mauris eu maximus orci. Mauris et nulla porttitor, ullamcorper
-              quam a, eleifend sapien. Cras ut metus turpis. Integer a mi et arcu blandit mollis sit amet eu sapien. In quis
-              semper massa. Nunc nec ipsum eu mauris ullamcorper volutpat. Nullam tristique gravida venenatis. Donec sollicitudin
-              aliquam congue. Cras tempor condimentum mi sollicitudin congue.
+              Urban Crown Projects is redefining urban living in Hyderabad by creating future-ready residential
+              communities that combine design, sustainability, and smart planning. Driven by innovation and guided
+              by integrity, we deliver homes that meet evolving lifestyles while ensuring long-term investment value.
+              Our mission is to build not just properties, but thriving communities people are proud to call home.
             </p>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, ligula ac blandit volutpat,
-              sapien magna efficitur odio, eu porttitor nisi ex suscipit eros. Ut pretium egestas pharetra. Sed nulla arcu,
-              imperdiet tempor vehicula varius, blandit a nunc. Mauris eu maximus orci. Mauris et nulla porttitor, ullamcorper
-              quam a, eleifend sapien. Cras ut metus turpis. Integer a mi et arcu blandit mollis sit amet eu sapien. In quis
-              semper massa. Nunc nec ipsum eu mauris ullamcorper volutpat. Nullam tristique gravida venenatis. Donec sollicitudin
-              aliquam congue. Cras tempor condimentum mi sollicitudin congue.
+              Urban Crown Projects is a trusted name in Hyderabad's real estate market, delivering premium residential
+              communities designed for global investors. We understand the unique needs of NRI buyers and provide a
+              seamless, transparent investment experience — from property selection to handover. With a strong focus
+              on quality construction, legal clarity, and high appreciation potential, we ensure your investment back
+              home is secure, rewarding, and future-ready.
             </p>
 
         </section>
+        <section className="nri-connect col s12">
+          <h1 className="body-h1">NRI CONNECT</h1>
+          <hr/>
+          <p>
+            At Urban Crown Projects, we simplify real estate investment for NRIs by offering reliable, transparent,
+            and hassle-free property solutions in Hyderabad. Our projects are built with superior quality standards
+            and strategic locations to maximize long-term returns. With dedicated support, clear documentation, and
+            timely delivery, we help you invest with confidence — no matter where you are in the world.
+          </p>
+        </section>
+
         <section className="our-team">
           <div className="container">
             <div className="row">
