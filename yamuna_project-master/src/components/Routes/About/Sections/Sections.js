@@ -38,6 +38,23 @@ class Sections extends Component {
           </p>
         </section>
 
+        <section className="in-the-news col s12">
+          <h1 className="body-h1">IN THE NEWS</h1>
+          <hr/>
+          <p style={{ color: '#555', marginBottom: '30px' }}>Urban Crown Projects featured in leading publications across Hyderabad.</p>
+          <div className="news-grid">
+            {[1,2,3,4,5,6,7,8].map((num) => (
+              <div key={num} className="news-card">
+                <img
+                  src={`/images/projects/ucpphotos/ucp-project-photo-0${num}.jpg`}
+                  alt={`Press coverage ${num}`}
+                  className="news-image"
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section className="our-team">
           <div className="container">
             <div className="row">
